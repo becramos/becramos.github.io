@@ -1,0 +1,29 @@
+body {
+background-color: rgb(238,232,170);
+background-color: #EEEBAA
+background-color: palegoldenrod;
+color: white;
+
+}
+
+a {
+	color: white;
+
+}
+h1 {
+	color: white;
+	font-family: helvetica
+	font-size: 50px;
+	font-style: italic;
+}
+
+ .red-rectangle {
+ 	background-color: red;
+ 	width:500px;
+ 	height: 500px;
+
+ }
+
+ .red-rectangle p {
+ 	text-align: center;
+ }
