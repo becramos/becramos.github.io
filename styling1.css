@@ -1,5 +1,5 @@
 body {
-background-color: rgb(238,232,170);
+background-color: rgb(193,97,23);
 background-color: #EEEBAA
 background-color: palegoldenrod;
 color: white;
@@ -12,18 +12,19 @@ a {
 }
 h1 {
 	color: white;
-	font-family: helvetica
+	font-family: 'helvetica Neue';
 	font-size: 50px;
 	font-style: italic;
+	padding-left: 250px;
 }
 
- .red-rectangle {
- 	background-color: red;
- 	width:500px;
- 	height: 500px;
+p {
+	color: white;
+	font-family: 'helvetica';
+}
+img{
+	height: 550px;
+	width: 500px;
+	padding-left: 425px;
 
- }
-
- .red-rectangle p {
- 	text-align: center;
- }
+}
