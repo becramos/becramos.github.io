@@ -1,0 +1,46 @@
+body{
+	background-color:black;
+}
+.flex{
+	width: 100%;
+	background-color: black;
+}
+.yellow {
+	background-color: yellow;
+	display: flex;
+	width: 300px;
+	height: 200px;
+}
+.yellow2{
+	background-color: yellow;
+	width: 600px;
+	height:200px;
+	align-self: flex-end;
+	padding-left: 400px;
+
+}
+
+.myfont h1{
+	font-size: 70px;
+	font-family: 'helvetica neue';
+	font-weight: bold;
+	padding-left: 200px;
+}
+
+.myfont h2{
+	font-size: 10px;
+	font-family: 'helvetica neue';
+	font-weight: bold;
+}
+.myfont h3{
+		font-size: 150px;
+	font-family: 'helvetica neue';
+	font-weight: bold;
+}
+
+.myfont{
+	padding-bottom: 300px;
+	padding-right: 300px;
+	padding-top: 0px;
+
+}

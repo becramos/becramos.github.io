@@ -1,0 +1,43 @@
+body{
+	background-color: rgb(255, 242, 0);
+	background-color: #fff200;
+}
+p{
+	color: black;
+	font-family: 'helvetica neue';
+	font-size: 90px;
+	font-style: italic;
+
+}
+
+h2 {
+	color: black;
+	font-family: 'helvetica neue';
+	font-style: bold;
+	font-size: 50px;
+	border: dashed 6px black;
+	border-left: 10px;
+	border-right: 10px;
+	font-weight: bold;
+}
+h3 {
+	color: black;
+	font-family: 'helvetica neue';
+	font-style: italic;
+	font-size: 40px;
+	border: dashed 4px black;
+	border-left: 10px;
+	border-right: 10px;
+
+}
+
+
+.container{
+	display: flex;
+	align-items: center;
+}
+
+.box-1{
+ padding: 10px;
+}
+

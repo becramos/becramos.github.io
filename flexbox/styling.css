@@ -1,0 +1,60 @@
+.flex{
+	display: flex; 
+	width: 100%;
+	background-color: black;
+}
+.red, .yellow, .blue {
+	width: 400px;
+	height: 400px;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-bottom: 20px;
+	margin-right: 10px;
+
+}
+
+.myfont p{
+	font-size: 50px;
+	font-family: 'helvetica neue';
+	font-weight: bolder;
+	padding-left: 10px;
+	padding-top: 30px;
+
+
+}
+
+.myfont2 p{
+	font-size: 50px;
+	font-family: 'helvetica neue';
+	font-weight: bolder;
+	padding-left: 10px;
+	padding-top: 10px;
+
+
+}
+.red{
+	background-color: yellow;
+
+}
+.yellow {
+	background-color: yellow;
+
+}
+
+.blue{
+	background-color: yellow;
+}
+
+.space-around{
+	justify-content: space-around;
+
+}
+.flex-end{
+	justify-content: flex-end;
+}
+
+.flex-vertical{
+	display: flex;
+	height: 800px;
+	flex-direction: column;
+}

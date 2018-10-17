@@ -1,0 +1,55 @@
+.flex{
+	display: flex; 
+	width: 100%;
+	background-color: black;
+}
+.red, .yellow, .blue {
+	width: 400px;
+	height: 400px;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-bottom: 20px;
+	margin-right: 10px;
+
+}
+.myfont{
+	font-family: 'helvetica neue';
+}
+
+.myfont p {
+	font-size: 50px;
+	font-family: 'helvetica neue';
+	font-style: italic;
+	font-weight: bolder;
+	padding-left: 250px;
+}
+
+.myfont h1 {
+	font-size: 80px
+}
+
+p{
+	font-size: 40px;
+}
+h1{
+	font-style: 'helvetica neue'
+}
+
+.yellow {
+	background-color: yellow;
+
+}
+
+.space-around{
+	justify-content: space-around;
+
+}
+.flex-end{
+	justify-content: flex-end;
+}
+
+.flex-vertical{
+	display: flex;
+	height: 800px;
+	flex-direction: column;
+}
