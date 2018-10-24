@@ -1,0 +1,44 @@
+
+
+h1{
+	font-family: 'Caveat', cursive;
+	font-size: 30px;
+	color: #8b8d91;
+}
+
+h2{
+	font-family: 'Caveat', cursive;
+	font-size: 30px;
+	text-decoration: line-through;
+	color: #8b8d91;
+}
+h3{
+	font-family: 'Caveat', cursive;
+	font-size: 30px;
+	color: #8b8d91;	
+}
+h4{
+	font-family: 'Caveat', cursive;
+	font-size: 30px;
+	color: #8b8d91;
+}
+h5{
+	font-family: 'Caveat', cursive;
+	font-size: 30px;
+	color: #8b8d91;
+}
+h6{
+	font-family: 'Caveat', cursive;
+	font-size: 30px;
+	color: #8b8d91;
+}
+
+body{
+background: linear-gradient(
+  to bottom,
+  #ffffff,
+  #ffffff 93%,
+  #000000 7%,
+  #000000
+);
+background-size: 100% 15px;

@@ -1,0 +1,28 @@
+body{
+	background-color: rgb(162, 164, 165);
+}
+
+h1{
+	font-family: 'impact';
+	font-size: 90px;
+	color: white;
+	transform: rotate(12deg);
+	margin: 120px;
+	text-align:left;
+}
+
+
+p{
+	font-family: 'impact';
+	font-size: 40px;
+	color: white;
+	text-align: center;
+}
+
+h2{
+	font-family: 'impact';
+	font-size: 80px;
+	color: white;
+	text-align: center;
+
+}

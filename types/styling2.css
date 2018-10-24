@@ -1,0 +1,47 @@
+body{
+	background-color: #ccd5e5;
+}
+h6{ 
+	color: white;
+	font-size: 40px;
+	font-family: 'courier';
+	font-weight: bold;
+	transform: rotate(1deg);
+	margin: 30px;
+
+}
+h1{
+	color: white;
+	font-size: 40px;
+	font-family: 'courier';
+	transform: rotate(2deg);
+	margin: 30px;
+}
+h2{
+	color: white;
+	font-size: 40px;
+	font-family: 'courier';
+	transform: rotate(3deg);
+	margin: 30px;
+}
+h3{
+	color: white;
+	font-size: 40px;
+	font-family: 'courier';
+	transform: rotate(4deg);
+	margin: 30px;
+}
+h4{
+	color: white;
+	font-size: 40px;
+	font-family: 'courier';
+	transform: rotate(5deg);
+	margin: 30px;
+}
+h5{
+	color: white;
+	font-size: 40px;
+	font-family: 'courier';
+	transform: rotate(6deg);
+	margin: 30px;
+}

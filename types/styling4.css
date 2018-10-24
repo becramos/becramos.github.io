@@ -1,0 +1,33 @@
+body{
+
+}
+h1{
+font-family: 'Special Elite', cursive;
+}
+h2{
+font-family: 'Special Elite', cursive;
+color: #3a3a3a;
+letter-spacing: 2.5px;
+}
+h3{
+font-family: 'Special Elite', cursive;
+color: #565656;
+letter-spacing: 5px;
+}
+h4{
+font-family: 'Special Elite', cursive;
+color: #8c8c8c;
+letter-spacing: 10px;
+}
+h5{
+font-family: 'Special Elite', cursive;
+color: #afafaf;
+letter-spacing: 20px;
+}
+h6{
+font-family: 'Special Elite', cursive;
+color: #d6d6d6;
+font-size: 90px;
+margin: 0px;
+text-align: right;
+}
