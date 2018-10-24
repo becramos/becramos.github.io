@@ -1,0 +1,51 @@
+body{
+ background-color: grey;
+}
+
+h1{
+	font-family: 'VT323', monospace;
+	font-size: 30px;
+	margin-right: 300px;
+	margin-left: 300px;
+	color: #0f3675;
+}
+h2{
+	font-family: 'VT323', monospace;
+	font-size: 30px;
+	margin-right: 300px;
+	margin-left: 300px;
+	color: #0f3675;
+}
+h3{
+	font-family: 'VT323', monospace;
+	font-size:30px;
+	margin-right: 300px;
+	margin-left: 300px;
+	color: #0f3675;
+}
+h4{
+	font-family: 'VT323', monospace;
+	font-size:50px;
+	text-align: center;
+	color: yellow;
+	position: fixed;
+	bottom: 0px;
+	top: 0px;
+	width: 1300px;
+
+
+}
+h5{
+	font-family: 'VT323', monospace;
+	font-size:30px;
+	margin-right: 300px;
+	margin-left: 300px;
+	color: #0f3675;
+}
+h6{
+	font-family: 'VT323', monospace;
+	font-size:30px;
+	margin-right: 300px;
+	margin-left: 300px;
+	color: #0f3675;
+}

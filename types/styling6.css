@@ -1,0 +1,73 @@
+body{
+}
+
+h1{
+	font-family: 'Courier new';
+	text-align: right;
+	margin-left: 700px;
+	font-size: 30px;
+	color: #08088e;
+}
+
+h2{
+	font-family: 'Courier new';
+	text-align: right;
+	margin-left: 700px;
+	font-size: 30px;
+	color: #08088e;
+
+}
+
+h3{
+	font-family: 'Courier new';
+	text-align: right;
+	margin-left: 700px;
+	font-size: 30px;
+	color: #08088e;
+
+}
+
+h4{
+	font-family: 'Courier new';
+	text-align: right;
+	margin-left: 700px;
+	font-size: 30px;
+	color: #08088e;
+
+}
+
+h5{
+	font-family: 'Courier new';
+	text-align: right;
+	margin-left: 700px;
+	font-size: 30px;
+	color: #08088e;
+
+}
+
+h6{
+	font-family: 'VT323', monospace;
+	text-align: right;
+	margin-left: 700px;
+	font-size: 90px;
+	margin-top: 0px;
+	color: #08088e;
+
+
+}
+
+p{
+	font-family: 'Press Start 2P', cursive;
+	text-align: left;
+	position: fixed;
+	top: 550px;
+
+}
+p:hover{
+    color: red;
+}
+
+h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover{
+	color: red;
+}
+

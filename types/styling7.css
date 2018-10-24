@@ -1,0 +1,64 @@
+body{
+	background-color: #e5e5e5
+}
+p{
+	font-family: 'Bungee';
+	font-size: 90px;
+	font-weight: bold;
+	position: fixed;
+	margin-top: 600px;
+	margin-left: 100px;
+}
+
+h2{
+	font-family: 'Bungee';
+	font-size: 90px;
+	font-weight: bold;
+	position: fixed;
+	margin-top: 600px;
+	margin-left: 650px;
+}
+
+p:hover {
+	color: red;
+}
+
+h2:hover{
+	color:blue;
+}
+h1{
+	font-family: 'Raleway Dots', cursive;
+	font-size: 40px;
+	letter-spacing: 3px;
+	margin-left: 200px;
+	margin-right:200px;
+}
+h3{
+	font-family: 'Raleway Dots', cursive;
+	font-size: 40px;
+	letter-spacing: 3px;
+	margin-left: 200px;
+	margin-right:200px;
+}
+h4{
+	font-family: 'Raleway Dots', cursive;
+	font-size: 40px;
+	letter-spacing: 3px;
+	margin-left: 200px;
+	margin-right:200px;
+}
+h5{
+	font-family: 'Raleway Dots', cursive;
+	font-size: 40px;
+	letter-spacing: 3px;
+	margin-left: 200px;
+	margin-right:200px;
+}
+h6{
+	font-family: 'Raleway Dots', cursive;
+	font-style: bold;
+	font-size: 40px;
+	letter-spacing: 3px;
+	margin-left: 200px;
+	margin-right:200px;
+}
