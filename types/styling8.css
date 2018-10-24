@@ -1,0 +1,22 @@
+body{
+	background-color: #85e524;
+}
+
+h3{
+	font-family: 'Iceland', cursive;
+	font-size: 30px;
+	transform: rotate(-180deg);
+	text-align: center;
+	padding-left: 100px;
+	padding-right: 100px;
+
+
+}
+
+p{
+	font-family: 'Iceland', cursive;
+	font-size: 100px;
+	font-weight: bold;
+	transform: rotate(90deg);
+	position: fixed;
+}

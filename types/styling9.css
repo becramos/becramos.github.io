@@ -1,0 +1,53 @@
+body{
+
+}
+
+
+
+h1{
+	font-family: 'Sarpanch', sans-serif;
+	font-size: 80px;
+	text-shadow: 3px 2px red;
+	position: fixed;
+	padding-top: 300px
+
+}
+
+h2{
+	font-family: 'Sarpanch', sans-serif;
+	font-size: 80px;
+	text-shadow: 3px 2px blue;
+	text-decoration: line-through;
+	position: fixed;
+	padding-top: 200px;
+
+}
+h3{
+	font-family: 'Sarpanch', sans-serif;
+	font-size: 80px;
+	text-shadow: 3px 2px red;
+	position: fixed;
+	padding-top: 100px;
+
+}
+h4{
+	font-family: 'Sarpanch', sans-serif;
+	font-size: 80px;
+	text-decoration: line-through;
+	text-shadow: 3px 2px blue;
+	position: fixed;
+	padding-top: 0px;
+
+}
+
+p{
+    font-family: 'Sarpanch', sans-serif;
+    transform: rotate(40deg);
+    position: fixed;
+}
+
+h5{
+	font-family: 'Sarpanch', sans-serif;
+	font-size: 80px;
+	color: #e5e5e5;
+}
