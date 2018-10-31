@@ -1,0 +1,39 @@
+body{
+background-color: #365619;
+}
+
+h1{
+	font-family: 'Helvetica';
+	font-size: 100px;
+	color: #2f4c13;
+	text-align: center;
+	position: fixed;
+
+}
+h2{
+	font-family: 'Helvetica';
+	font-size: 100px;
+	color: #2f4c13;
+	text-align: center;
+	position: fixed;
+	padding-top: 3px;
+	padding-left: 5px;
+
+}
+
+h2:hover {
+	color: #4c1313;
+}
+h1:hover {
+	color: #13174c;
+}
+
+p{
+	color: #0a2d16;
+	letter-spacing: 7px;
+	text-align: center;
+	padding-right: 400px;
+	padding-left: 400px;
+
+
+}
