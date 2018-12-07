@@ -1,0 +1,19 @@
+body{
+	background-color: black;
+}
+.justdoit{
+	color: white;
+	font-size: 100px;
+	font-family: 'Merriweather', serif;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.swoosh{
+	display: flex;
+	justify-content: flex-end;
+
+}
+img{
+	height: 70px;
+}
