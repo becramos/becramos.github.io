@@ -3,15 +3,21 @@
 <head>
 	<script type="text/javascript" src="java.js">
 	</script>
+
+
+
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+ 
 	<link rel="stylesheet" type="text/css" href="styling.css">
 	<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
 	<title>dream crazy.</title>
 	<style type="text/css">
 
+
 body{
 	background-color: black;
 }
-.justdoit{
+.fade-in{
 	color: white;
 	font-size: 100px;
 	font-family: 'Merriweather', serif;
@@ -19,16 +25,30 @@ body{
 	float: right;
 	width: 40%;
 	margin: 5px;
+	animation: fadeIn 6s;
 	
 }
+
+@keyframes fadeIn{
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+}
+
 
 .swoosh{
 	display: flex;
 	justify-content: flex-end;
 	float: right;
 	padding-top: 140px;
+	animation: fadeIn 6s;
 
 }
+
+
 .swoosh{
 	height: 70px;
 
@@ -46,6 +66,7 @@ body{
 	position: fixed;
 	bottom: 9px;
 	left: 0;
+	animation: fadeIn 6s;
 }
 
 .line2 h1{
@@ -59,11 +80,61 @@ body{
 	padding-left: 15px;
 	position: absolute;
 	color: white;
-	font-family: 'Merriweather', serif;
+	font-family: 'Merriweather', light;
 	font-size: 20px;
 
 
 
+}
+
+.date{
+	color: white;
+	font-family: 'Merriweather';
+	font-style: bold;
+	font-size: 50px;
+	text-align: justify;
+	padding-top: 220px;
+	padding-right: 52px;
+	padding-left:52px;
+	animation: fadeIn 8s;
+}
+
+.introText{
+	color: #bababa;
+	font-family: 'Open Sans',san-serif;
+	font-size: 20px;
+	text-align: justify;
+	padding-bottom: 300px;
+	padding-right: 52px;
+	padding-left:52px;
+	animation: fadeIn 18s;
+}
+
+
+.history a{
+	color: white;
+	text-decoration: none;
+	font-family: 'Merriweather';
+	font-size: 30px;
+	margin-left: 30%;
+
+}
+
+.btn{
+	margin-top: 500px;
+	border: 1px solid black;
+	background-color: black;
+	color: white;
+	align-content: center;
+	font-family: 'Merriweather';
+	font-size: 130px;
+
+}
+
+.audio{
+	display: flex;
+	margin-bottom: 600px;
+	justify-content: center;
 
 }
 
@@ -71,9 +142,19 @@ body{
 	display: flex;
 	float: right;
 	width: 50%;
+	margin: 10px;
 	height: 50%;
-	margin-left: 20%
 }
+
+.LEBRON h5{
+	color: white;
+	font-family: 'Open Sans',san-serif;
+	font-size: 26px;
+	padding-top: 20px;
+	text-align: justify;
+	margin-left: 10px;
+}
+
 
 .LACEY img{
 	float: right;
@@ -82,12 +163,31 @@ body{
 	margin: 10px;
 }
 
+.LACEY h5{
+	color: white;
+	font-family: 'Open Sans',san-serif;
+	font-size: 28px;
+	padding-top: 30px;
+	text-align: justify;
+	margin-left: 10px;
+}
+
+
 .ODELL img{
 	display: flex;
 	float: right;
 	width: 50.1%;
 	height:50%;
 	margin: 10px;
+}
+
+.ODELL h5{
+	color: white;
+	font-family: 'Open Sans',san-serif;
+	font-size: 28px;
+	text-align: justify;
+	margin-left: 10px;
+	padding-top: 35px;
 }
 
 .SERENA img{
@@ -98,12 +198,32 @@ body{
 	margin: 10px;
 }
 
+.SERENA h5{
+	color: white;
+	font-family: 'Open Sans',san-serif;
+	font-size: 35px;
+	padding-top: 45px;
+	text-align: justify;
+	margin-left: 10px;
+
+}
+
 .SHAQUEM img{
 	display: flex;
 	float: right;
 	width: 50.1%;
 	height:50%;
 	margin: 10px;
+}
+
+
+.SHAQUEM h5{
+	color: white;
+	font-family: 'Open Sans',san-serif;
+	font-size: 35px;
+	padding-top: 30px;
+	text-align: justify;
+	margin-left: 10px;
 }
 
 .COLIN img{
@@ -114,13 +234,98 @@ body{
 	margin: 10px;
 }
 
+.COLIN h5{
+	color: white;
+	font-family: 'Open Sans',san-serif;
+	font-size: 21.5px;
+	padding-top: 30px;
+	text-align: justify;
+	margin-left: 10px;
+	padding-bottom: 0px;
+}
+
+.colin img{
+	display: flex;
+	align-items: center;
+	width: 100%;
+	height:100%;
+}
+
+
+.lacey img{
+	display: flex;
+	width: 100%;
+	height:100%;
+}
+
+.odell img{
+	display: flex;
+	width: 100%;
+	height: 100%;
+}
+
+.lebron img{
+	display: flex;
+	width: 100%;
+	height: 100%;
+}
+
+.serena img{
+	display: flex;
+	width: 100%;
+	height: 100%;
+}
+
+.shaquem img{
+	display: flex;
+	width: 100%;
+	height: 100%;
+
+}
+
+.line3{
+	height: 2px;
+	width: 100%;
+	background-color: white;
+	margin-top: 400px;
+}
+
+.mission{
+	color: white;
+	font-family: 'Merriweather';
+	text-align: center;
+	font-size: 30px;
+	padding-top: 10px;
+
+}
+
+.mission2{
+	color: white;
+	font-family: 'Merriweather';
+	font-size: 70px;
+	text-align: center;
+}
+
+.mission3{
+	color: white;
+	font-family: 'Merriweather';
+	text-align: center;
+	font-size: 30px;
+	margin-bottom: 300px;
+}
+
+
 
 	</style>
+
 }
 
 </head>
 <body>
-	<div class="justdoit">
+
+
+
+	<div class="fade-in">
 		<p> Just do it. </p>
 	</div>
 
@@ -130,28 +335,129 @@ body{
 		
 	</div>
 
+<div class="date">
+<p> September 6th, 2018</p>
+</div>
+	<div class="introText">
+	<h1> Nike released a video commercial that aired during the NFL’s 2018 opening game. In this commercial included those 6 notable change making athletes: Serena Williams, Odell Beckham Jr., Lebron James, Lacey Baker, Shaquem Griffen, and Colin Kaepernick.</h1>
+
+
+
+</div>
+<div class="history" id="history">
+<a href="index2.html" style="text-decoration: none;" style="color: white;" style="background-color: black">LEARN ABOUT THE "JUST DO IT" HISTORY</a>
+</div>
+
+
+
+
+
+<button class="btn default" id="button" onclick="musicPlay();"> How crazy are your dreams?</button>
+
+
+<div class="audio default">
+<audio controls>
+	<source src="music.mp3" type="audio/mpeg">
+</audio>
+</div>
+
+
+
+
+	<div class="serena">
+		<img src="SERENA.png" id= "serena" onclick="changeFive();">
+	</div>
+	 <div class="odell">
+	 	<img src="ODELL.png" id="odell" onclick="changeThree();">
+	 </div>
+	 <div class="lebron">
+	 	<img src="LEBRON.jpg" id="lebron" onclick="changeFour();">
+	 </div>
+	<div class="lacey">
+		<img src="LACEY.png" id="lacey" onclick="changeTwo();">
+	</div>
+	 <div class="shaquem">
+	 	<img src="SHAQUEM.png" id="shaquem" onclick="changeSix();">
+	 </div>
+	 <div class="colin">
+	 	<img src="COLIN.png" id="colin" onclick="changeOne();">
+	 </div>
+
+
+
+
+
+
+
+
+<div class="line3"></div>
+
+<div class="mission">
+	<h2> NIKE'S MISSION:</h2>
+</div>
+
+<div class="mission2">
+	<h3> Bring inspiration and innovation to every athlete* in the world</h3>
+</div>
+
+<div class="mission3">
+	<h4>*IF YOU HAVE A BODY, YOU ARE AN ATHLETE</h4>
+</div>
+
+<div class=line4>
+</div>
+
+
+
+
+
+
+
+
+
+
+
 
 	<div class="LEBRON">
 		<img src="LEBRON.jpg" width="300" height="1000" id="LEBRON">
+			<h5> Lebron James raised by a single mother in the projects of Ohio became one of the top paid athletes in the world. He has countless basketball highlights and awards and said to be one of the greatest basketball and athlete of all time. More recently, he has spoken out on important social and political topics despite being told to “shut up and dribble” by the press. He has opened a public elementary school that gives graduates tuition money for college. He has shown the world that you don’t just have to be an athlete, you can stand for more. </h5>
 	 </div>
 
+
+
 	 <div class="LACEY">
-	 	<img src="LACEY.png" width="300" height="1000" id="LACEY"></div>
+	 	<img src="LACEY.png" width="300" height="1000" id="LACEY">
+	 	<h5> Lacey Baker is a pro skater to become the first openly queer women to join the Nike Skate team in 2017. At 11 years old, Lacey uploaded videos of herself skateboarding and soon was recognized for her talent by brands who were interested in sponsoring her. “They wanted me to keep my long blonde hair and be feminine, because it’s marketable… I knew that would never be me.” she said during an interview. Lacey is an example to young adults that you don’t have to change yourself in order to be great.</h5></div>
+
+
+
+
+
 
 	 <div class="ODELL">
 	 	<img src="ODELL.png" width="300" height="1000" id="ODELL">
+	<h5>Odell Beckham is an American football New York Giants star and the highest paid wide receiver in NFL history. He was named AP Offensive Rookie of the Year, NFL Player of the year, and gained national attention with a one handed touchdown catch and which is said to be the greatest catch of all time. Despite having these major acknowledgements, he has never won an NFL championship. Last year Beckham faced a career threatening injury but says he has hopes to come back stronger than ever. 
+	</h5>
+
 	 </div>
 
 	 <div class="SERENA">
 	 	<img src="SERENA.png" width="300" height="1000" id="SERENA">
+	 <h5>Serena Williams, a world class tennis star from Compton who trained her whole life to make it big in a predominantly white sport. She has openly expressed the difficulties being a women of color athlete and continues to inspire other athletes to push through those difficulties to become great.</h5>
+
 	 </div>
 
 	 <div class="SHAQUEM">
 	 	<img src="SHAQUEM.png" width="300" height="1000" id="SHAQUEM">
+	 <h5>Shaquem Griffin is a 23 year old Seattle Seahawks linebacker and also the first one handed athlete in NFL history. He lost his left hand due to a rare prenatal condition. This didn’t stop him from playing football and being named American Athletic Conference Defensive Player of the Year in 2016.</h5>
 	 </div>
 
 	 <div class="COLIN"> 
-	 	<img src="COLIN.png" width="300" height="1000" id="COLIN"></div>
+	 	<img src="COLIN.png" width="300" height="1000" id="COLIN">
+	 	<h5>The last change making athlete featured on Nike’s “Just Do It” campaign and the most controversial was Colin Kaepernick. Kaepernick is a former San Francisco 49ers quarterback from 2011-2016 and left the team in 2016 following a national controversy. In 2016, Colin Kaepernick refused to stand during the national anthem and instead took a knee. In an interview after he said, "I am not going to stand up to show pride in a flag for a country that oppresses black people and people of color." He said that this issue is bigger than football and that he would continue to kneel during the national anthem until he saw change in the United States. Since leaving the 49ers Kaepernick has not been able to find a team to play for and has since filed a grievance under the latest collective bargaining agreement against the NFL owners for collusion.
+	 	</h5>
+	 </div>
+
 
 
 
